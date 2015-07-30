@@ -3,7 +3,7 @@ title: 三十二机的博客
 email: zvtibo2012@gmail.com
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://zvtibo.github.io/" # the base hostname & protocol for your site
 github_username:  zvtibo
 
 # Build settings

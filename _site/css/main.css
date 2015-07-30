@@ -65,10 +65,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #ADD8E6;
+  color: #7EC0EE;
   text-decoration: none; }
   a:visited {
-    color: #72bcd4; }
+    color: #3a9fe5; }
   a:hover {
     color: #111;
     text-decoration: underline; }

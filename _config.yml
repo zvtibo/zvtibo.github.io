@@ -1,15 +1,12 @@
 # Site settings
-title: 三十二机的博客
+title: 三十二张机的博客
 email: zvtibo2012@gmail.com
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://zvtibo.github.io/" # the base hostname & protocol for your site
+url: "localhost:4000" # the base hostname & protocol for your site
 github_username:  zvtibo
 
 # Build settings
 markdown: kramdown
 
-comments:
-  provider: duoshuo
-  duoshuo:
-    short_name: zvtibo
+paginate: 5

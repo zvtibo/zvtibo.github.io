@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "rails4"
+title:  "中英文 "
 date:   2015-07-28 23:41:08
 categories: rails
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-<!-- more -->
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+这样，理论上，浏览器会优先用英文字体显示文字，英文字体里没包含的字符，则从后面的中文字体里面找，这样就达到了中英文显示不同字体的效果（具体到各个操作系统和浏览器，还有不少差别，可参见 jjgod 的《浏览器如何渲染文本》）。比如上面的例子就是英文用 Arial，汉字用宋体。
 
+这样的问题是：1，各个系统和浏览器的行为不同，有的用后面规定的中文字体，有的会用浏览器或系统默认字体。2，有的字符，可能英文字体和中文字体里都有，于是想用中文字形却显示成了英文字形。
+<!-- more -->
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}

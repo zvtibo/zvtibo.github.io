@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "中英文 "
+title:  "中英文ｓｈｓｈｓｉｓｈｓｉｄｈｈｓｄｈｉｈｄｉｓａｈｄｓｉａｈｄ "
 date:   2015-07-28 23:41:08
 categories: rails
 ---

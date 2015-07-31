@@ -8,5 +8,4 @@ github_username:  zvtibo
 
 # Build settings
 markdown: kramdown
-
-paginate: 5
+paginate: 6

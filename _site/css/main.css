@@ -65,13 +65,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #7EC0EE;
+  color: #3a9fe5;
   text-decoration: none; }
-  a:visited {
-    color: #3a9fe5; }
   a:hover {
-    color: #111;
-    text-decoration: underline; }
+    color: #111; }
 
 /**
  * Blockquotes
@@ -153,9 +150,9 @@ pre {
   position: relative; }
 
 .site-title {
-  font-size: 26px;
+  font-size: 27px;
   line-height: 56px;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
@@ -269,6 +266,8 @@ pre {
   list-style: none; }
   .post-list > li {
     margin-bottom: 38px; }
+  .post-list .postNew {
+    font-size: 33px; }
 
 .post-meta {
   font-size: 14.875px;
@@ -332,6 +331,21 @@ li.xiaochuquanquan {
 
 ul.arc-list {
   list-style-type: none; }
+
+/**
+* Categories
+*/
+li.tag {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  background-color: #000;
+  border-radius: 7px; }
+  li.tag > a {
+    color: #fff;
+    margin: 7px; }
+  li.tag > a:hover {
+    color: #e8e8e8; }
 
 /**
  * Syntax highlighting styles

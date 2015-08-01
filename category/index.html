@@ -4,8 +4,14 @@ layout: default
 ---
 
 <h1> 分类　</h1>
+<ul >
 {% for category in site.categories %}
-<h3>{{ category | first }}</h3> 
+<li class="tag"><a href="#{{ category | first }}">{{ category | first }}</a></li>
+{% endfor %}
+</ul>
+
+{% for category in site.categories %}
+<h3 id="{{ category | first }}">{{ category | first }}</h3> 
 <ul class="arc-list">
 {% for post in category.last %} 
 <li><a href="{{ post.url }}">{{ post.title }}</a></li>

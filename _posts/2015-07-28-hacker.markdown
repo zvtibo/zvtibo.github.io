@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "黑客与画家节选"
+date:   2015-07-30 19:52:08
+categories: hacker
+---
+<img src="http://www.bz55.com/uploads/allimg/100719/1_100719110156_1.jpg">
+
+
